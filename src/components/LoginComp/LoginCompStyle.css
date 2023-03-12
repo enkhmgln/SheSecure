@@ -1,0 +1,64 @@
+.createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+.lgContainer {
+    max-width: 500px;
+    height: auto;
+    padding: 20px ;
+    background-color: #17cf97;
+    border-radius: 12px;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.warning {
+    padding: 1rem;
+    color: #e50000;
+}
+.lgContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media screen and (max-width:769px){
+    .createPostPage {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: grid;
+        place-items: center;
+    }
+    .lgContainer {
+        max-width: 80%;
+        height: auto;
+        padding: 10px ;
+        background-color: #17cf97;
+        border-radius: 12px;
+        color: #e5e5e5;
+        display: flex;
+        flex-direction: column;
+    }
+    .warning {
+        padding:   0.8rem;
+    }
+    .lgContainer button {
+        margin-top: 20px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;
+    }
+    .lgContainer button:hover {
+        background-color: #14ba87;
+    }
+}

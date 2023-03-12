@@ -1,0 +1,16 @@
+.GoogleMap {
+    margin: 1rem auto;
+    max-width:100vh ;
+    height:10rem ;
+}
+.GoogleMap  iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:769px) {
+    .GoogleMap {
+        width: 80%;
+        height: 50vh;
+    }
+}

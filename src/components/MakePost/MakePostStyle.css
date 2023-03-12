@@ -1,0 +1,68 @@
+.createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+.cpContainer {
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: #17cf97;
+    border-radius: 12px;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+}
+
+.cpContainer h1 {
+    text-align: center;
+}
+.warning {
+    padding: 1rem ;
+    color: #e50000;
+}
+
+.cpContainer label {
+    font-size: 25px;
+}
+
+.cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGp input,
+.inputGp textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.inputGp input {
+    height: 40px;
+}
+
+.inputGp textarea {
+    height: 150px;
+}
+
+.cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+.cpContainer button:hover {
+    background-color: #14ba87;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+}

@@ -1,0 +1,81 @@
+.help {
+    padding: 2rem 1rem;
+}
+.article-main {
+    margin: 2rem;
+}
+.article-main h4,.article-main p {
+    text-align: start;
+
+}
+ol {
+    padding-left: 0.3rem;
+}
+ol li {
+    padding: 0.5rem;
+    text-align: start;
+}
+.title {
+    padding: 2rem;
+    font-size: large;
+}
+
+details {
+    width: 50%;
+    margin: 0 auto ;
+    background: #17cf97;
+    margin-bottom: .5rem;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  summary {
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: block;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+  }
+  
+  /* THE MAGIC 🧙‍♀️ */
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  
+  
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  
+  details > ol {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+
+@media screen and (max-width:769px) {
+    details {
+        width: 90%;
+        margin: 0 auto ;
+        background: #17cf97;
+        margin-bottom: .5rem;
+        box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+        border-radius: 5px;
+        overflow: hidden;
+      }
+}

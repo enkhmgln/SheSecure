@@ -1,0 +1,29 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    background-color: #17cf97;
+    max-width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.postHeader {
+    margin: 1rem;
+}
+
+
+
+
+@media (max-width: 769px) {
+    .post {
+        background-color: #17cf97;
+        max-width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+  }
